@@ -236,6 +236,11 @@ body {
     max-width: 100%;
     min-width: 100%;
 }
+.curve1{
+
+    display:none;
+    
+}
 
 .curve {
     position: absolute;
@@ -928,8 +933,8 @@ body {
 
     .right {
         position: absolute;
-        left: 20.21%;
-        right: 0%;
+        left: 20%;
+        margin-right: 10%;
         top: 0%;
         bottom: 0%;
         margin-right:78px;
@@ -964,12 +969,12 @@ body {
     }
 
     .second-container .mg1 {
-        margin-left: 350px;
-        width: 600px;
+        margin-left: 400px;
+        width: 700px;
 
     }
     .mg1{
-        width:600px;
+        width:700px;
     }
 
     .second-container.info {
@@ -1090,11 +1095,12 @@ body {
         flex-direction: row;
         justify-content: space-between;
         position: absolute;
-        width: 689px;
+        width: 989px;
         height: 83px;
-        margin-left: -1100px;
+        margin-left: -1020px;
         margin-top: 386px;
     }
+    
 
     .second h1 {
         margin-left: 120px;
@@ -1131,7 +1137,7 @@ body {
         left:0px;
         top: 221px;
         align-content: center;
-        width: 60%;
+        width: 1050px;
         height: 684px;
         flex-shrink: 0;
         
@@ -1142,7 +1148,7 @@ body {
         position: absolute;
         width: 689px;
         height: 402px;
-        left: 50px;
+        left: 150px;
         top: -310px;
 
     }
@@ -1156,7 +1162,7 @@ body {
         position: absolute;
         width: 49.27px;
         height: 40px;
-        margin-left: 250.27px;
+        margin-left: 400.27px;
         margin-top: -95px;
         transform: matrix(-1, 0, 0, 1, 0, 0) tranasiton();
 
@@ -1418,7 +1424,7 @@ body {
 
     .containing {
         display:inline-flex;
-        margin-right: 8.8%;
+        margin-right: 5.8%;
         align-items:center;
     }
 
@@ -1440,6 +1446,7 @@ body {
         padding: 0;
         width: 100%;
         height: 2389px;
+        overflow-x:hidden;
 
     }
 
@@ -1466,6 +1473,7 @@ body {
 
     .right a {
         font-size: 12px;
+        margin-top:10px;
     }
 
     .second-container {
@@ -1492,11 +1500,20 @@ body {
     }
 
     .curve {
-        width: 10.5%;
+        display:none;
+        width: 151px 16;
 
         margin-top: 125px;
         margin-left: -10px;
 
+    }
+    .curve1{
+        position:absolute;
+        display:initial;
+        width: 151px;
+
+        margin-top: 135px;
+        margin-left: 90px;
     }
 
     .second-container .info {
@@ -1630,6 +1647,9 @@ body {
         margin-top: 380px;
     
     }
+    .btn a{
+        margin-top:-5px;
+    }
 
     .btn:hover {
      
@@ -1747,7 +1767,7 @@ body {
 
     .third-container {
         display: block;
-        width: 100%;
+        width: 40%;
         height: 720px;
         margin-left: -160px;
         margin-top: 2130px;
