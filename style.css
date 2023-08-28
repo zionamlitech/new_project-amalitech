@@ -922,13 +922,13 @@ body {
         position: absolute;
         width: 80%;
         height: 56px;
-        left: 154px;
+        left: 54px;
         top: 40px;
     }
 
     .right {
         position: absolute;
-        left: 50.21%;
+        left: 20.21%;
         right: 0%;
         top: 0%;
         bottom: 0%;
@@ -947,7 +947,7 @@ body {
         height: 482px;
         left: 84px;
         top: 176px;
-        margin-left: 40px;
+        margin-left: -20px;
     }
 
     .second-container.curve {
@@ -1131,7 +1131,7 @@ body {
         left:0px;
         top: 221px;
         align-content: center;
-        width: 80%;
+        width: 60%;
         height: 684px;
         flex-shrink: 0;
         
@@ -1142,7 +1142,7 @@ body {
         position: absolute;
         width: 689px;
         height: 402px;
-        left: 120px;
+        left: 50px;
         top: -310px;
 
     }
@@ -1156,7 +1156,7 @@ body {
         position: absolute;
         width: 49.27px;
         height: 40px;
-        margin-left: 390.27px;
+        margin-left: 250.27px;
         margin-top: -95px;
         transform: matrix(-1, 0, 0, 1, 0, 0) tranasiton();
 
