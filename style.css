@@ -45,7 +45,7 @@ body {
     text-decoration: none;
 }
 
-.first-container.right {
+.right {
     position: absolute;
     align-items: center;
     text-align: center;
@@ -57,10 +57,10 @@ body {
 
 .right {
 
-    width: 219px;
+    width: 256px;
     height: 56px;
     left: 590px;
-    top: 60px;
+    top: 30px;
     border: 1px solid #172339;
     background: #FFFFFF;
     border-radius: 8px;
@@ -319,7 +319,7 @@ body {
 }
 
 .first p, .second p, .third p {
-    font-family: 'Epilogue';
+    font-family: 'Epilogue',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -385,7 +385,7 @@ body {
     display: inline-flex;
     flex-direction: row;
 
-    width: 95%;
+    width: 100%;
     margin-left: -106px;
     top: 972px;
     right: 164px;
@@ -460,13 +460,16 @@ body {
 .text.center {
     position: absolute;
     left: 0%;
-    right: 0%;
+    right: 85%;
     top: 26.02%;
     bottom: 26.56%;
 
     /* Quote */
 
 
+}
+.center{
+    margin-right:25%;
 }
 
 .top span {
@@ -560,7 +563,7 @@ body {
     display: flex;
 
 
-    width: 100%;
+    width: 1440px;
     flex-flow: row;
     height: 464px;
 
@@ -659,15 +662,16 @@ body {
 
 
 
-@media screen and (min-width:1440px) {
-    body {
-        width: 100vh;
+@media screen and (min-width:1440px){
+   html,body {
+        width: 100%;
         overflow-x: hidden;
     }
 
     .first-container {
         width: 80%;
         left: 16px;
+       
     }
 
     .first-container .left {
@@ -675,11 +679,15 @@ body {
     }
 
     .right {
+        position:absolute;
         font-family: 'Epilogue'sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        margin-left: 80px;
+        
+        width:256px;
+        margin-top:-0px;
+        margin-right:20%;
     }
 
     .second-container {
@@ -688,8 +696,8 @@ body {
         margin-left: 15px;
     }
 
-    .second-container .end {
-        margin-left: -50px;
+    .end {
+        margin-left: 250px;
     }
 
     .first, .second, .third {
@@ -755,14 +763,7 @@ body {
         color: #F3EDE7;
     }
 
-    .first-container.right {
-        position: absolute;
-        width: 219px;
-        height: 56px;
-        left: 1056px;
-        top: 60px;
-
-    }
+  
 
     .first-conter.right a {
         position: absolute;
@@ -828,9 +829,11 @@ body {
         width: 100%;
         margin-left: -150px;
     }
-
+    .center {
+        margin-right:20%;
+    }
     .forth-container {
-        width: 90%;
+        width: 100%;
     }
 
     .contain {
@@ -843,7 +846,6 @@ body {
     }
 
 }
-
 @media screen and () {
     body {
 
@@ -919,7 +921,7 @@ body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        height: 1962px;
+        height: 100%;
         overflow-x: hidden
     }
 
@@ -933,11 +935,11 @@ body {
 
     .right {
         position: absolute;
-        left: 20%;
-        margin-right: 10%;
+        left: 25%;
+        margin-right: 35%;
         top: 0%;
         bottom: 0%;
-        margin-right:78px;
+       
 
     }
 
@@ -950,7 +952,7 @@ body {
         position: absolute;
         width: 689px;
         height: 482px;
-        left: 84px;
+        left: 70px;
         top: 176px;
         margin-left: -20px;
     }
@@ -969,12 +971,12 @@ body {
     }
 
     .second-container .mg1 {
-        margin-left: 400px;
-        width: 700px;
+        margin-left: 300px;
+        width: 900px;
 
     }
     .mg1{
-        width:700px;
+        width:900px;
     }
 
     .second-container.info {
@@ -1097,7 +1099,7 @@ body {
         position: absolute;
         width: 989px;
         height: 83px;
-        margin-left: -1020px;
+        margin-left: -1080px;
         margin-top: 386px;
     }
     
@@ -1134,10 +1136,10 @@ body {
         align-items: center;
         position: absolute;
 
-        left:0px;
+        left:2px;
         top: 221px;
         align-content: center;
-        width: 1050px;
+        width:90%;
         height: 684px;
         flex-shrink: 0;
         
@@ -1148,7 +1150,7 @@ body {
         position: absolute;
         width: 689px;
         height: 402px;
-        left: 150px;
+        left: 170px;
         top: -310px;
 
     }
@@ -1162,7 +1164,7 @@ body {
         position: absolute;
         width: 49.27px;
         height: 40px;
-        margin-left: 400.27px;
+        margin-left: 380.27px;
         margin-top: -95px;
         transform: matrix(-1, 0, 0, 1, 0, 0) tranasiton();
 
@@ -1205,7 +1207,7 @@ body {
     }
 
     .top h1 {
-        left: 209.27px;
+        left: 109.27px;
         font-size: 12px;
 
         font-family: 'Epilogue'sans-serif;
@@ -1247,8 +1249,8 @@ body {
 
     .center {
         position: absolute;
-        left: 30%;
-        right: 31%;
+        left: 25%;
+        right: 5%;
         top: 59.21%;
         bottom: 34.75%;
 
@@ -1352,7 +1354,7 @@ body {
     .forth-container.contain {
 
         position: absolute;
-        width: 689px;
+        width: 100%;
         height: 32px;
         left: 39px;
         top: 1000px;
@@ -1418,13 +1420,13 @@ body {
         position: absolute;
         width: 116px;
         height: 20px;
-        left: 573px;
+        left: 373px;
         top: 6px;
     }
 
     .containing {
         display:inline-flex;
-        margin-right: 5.8%;
+        margin-right: 8.8%;
         align-items:center;
     }
 
@@ -1440,7 +1442,7 @@ body {
 
 
 
-@media screen and (min-width:200px)and (max-width:600px)and (orientation: landscape) {
+@media screen and (min-width:200px)and (max-width:600px) {
     html, body {
         margin: 0;
         padding: 0;
@@ -1501,26 +1503,26 @@ body {
 
     .curve {
         display:none;
-        width: 151px 16;
+        width: 101px 16;
 
         margin-top: 125px;
-        margin-left: -10px;
+        margin-left: -20px;
 
     }
     .curve1{
         position:absolute;
         display:initial;
-        width: 151px;
+        width: 121px;
 
-        margin-top: 135px;
-        margin-left: 90px;
+        margin-top: 120px;
+        margin-left: 60px;
     }
 
     .second-container .info {
         width: 343.5px;
         height: 325.32px;
         left: 15.5px;
-        margin-top: -228px;
+        margin-top: -248px;
 
     }
 
@@ -1541,6 +1543,7 @@ body {
         font-family: 'Epilogue'sans-serif;
         line-height: 44px;
         letter-spacing: -0.528px;
+        margin-top:160px;
 
     }
 
@@ -1583,7 +1586,7 @@ body {
     }
 
     .sub-header p {
-        width: 80%;
+        width: 90%;
         color: var(--grey, #49566D);
         font-size: 16px;
         font-family: sans-serif;
@@ -1591,7 +1594,7 @@ body {
         font-weight: 400;
 
         text-align: left;
-        margin-top: 290px;
+        margin-top: 260px;
     }
 
     .sub-header p {
@@ -1684,7 +1687,8 @@ body {
     }
 
     .first p {
-        margin: 170px 120px;
+        margin: 190px 120px;
+        font-family:'Epilogue',sans-serif;
 
     }
 
@@ -1719,6 +1723,12 @@ body {
     .second {
         left: 100px;
         margin: -110px 150px;
+    }
+    .second p, .third p{
+        font-family:'Epilogue',sans-serif;
+    }
+    .third p{
+        margin-left: 5px;
     }
 
     .second h1 {
@@ -1760,14 +1770,14 @@ body {
 
     .third p {
         position: absolute;
-        margin-left: -50px;
+        margin-left: -20px;
         margin-top: 65px;
 
     }
 
     .third-container {
         display: block;
-        width: 40%;
+        width: 32%;
         height: 720px;
         margin-left: -160px;
         margin-top: 2130px;
@@ -1835,7 +1845,7 @@ body {
     .bottom h3 {
         margin-left: -80px;
         font-size: 12px;
-        margin-top: -15px;
+        margin-top: -10px;
     }
 
     .bottom h2 {
